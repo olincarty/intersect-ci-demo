@@ -7,7 +7,7 @@ jobs:
       - name: Greeting!
         run: echo hello world
         
-  run-python-tests:
+  run-python-tests-310:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
