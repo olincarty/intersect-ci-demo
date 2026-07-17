@@ -22,7 +22,7 @@ jobs:
       - name: Test package
         run: python -m pytest
         
-  run-python-tests_314:
+  run-python-tests-314:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
